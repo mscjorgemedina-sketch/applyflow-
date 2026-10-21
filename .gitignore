@@ -1,0 +1,44 @@
+# ═══════════════════════════════════════════════════════════════════
+#  ApplyFlow v5 — datos personales: NUNCA subir al repositorio
+# ═══════════════════════════════════════════════════════════════════
+
+# Tu perfil completo: CV (PDF), profile.json (contacto + RUT) y
+# data_consolidada.md (historial privado de conversaciones).
+perfiles/
+
+# Perfil activo del sistema: contiene email, teléfono y RUT.
+# (usa config/profile.example.json como plantilla para el tuyo)
+apply_copilot/config/profile.json
+
+# Todo el estado generado por las corridas: registro de rellenados,
+# respuestas personales de formularios, cartas, sueldos, evidencias
+# (capturas de pantalla), logs y bases de tu búsqueda.
+apply_copilot/data/
+
+# Dashboard generado (incluye datos de tus postulaciones).
+apply_copilot/dashboard_interactivo.html
+dashboard_interactivo.html
+
+# ═══════════════════════════════════════════════════════════════════
+#  Config personal del equipo del autor (rutas locales del PC)
+# ═══════════════════════════════════════════════════════════════════
+opencode.jsonc
+
+# ═══════════════════════════════════════════════════════════════════
+#  Generados y cachés
+# ═══════════════════════════════════════════════════════════════════
+__pycache__/
+*.pyc
+*.pyo
+*.tmp.json
+*.tmp
+*.bak
+*.orig
+Thumbs.db
+.DS_Store
+
+# Entornos y editores
+.venv/
+venv/
+.vscode/
+.idea/
